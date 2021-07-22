@@ -32,7 +32,7 @@ func main() {
 	fmt.Println(lst)
 
 	for i := 1; i < 4; i++ {
-		mergeSort(lst)
+		applySort(lst)
 	}
 
 	fmt.Println("--- Sorted List ----")
